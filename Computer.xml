@@ -1,66 +1,108 @@
-<aero>
-	<company>
+<computer>
+	<pc>
 		<row>
-			<id_comp>6</id_comp>
-			<name>Ufa lines</name>
-		</row>
-	</company>
-	<trip>
-		<row>
-			<trip_no>8900</trip_no>
-			<id_comp>4</id_comp>
-			<plane>Boeing</plane>
-			<town_from>Moscow</town_from>
-			<town_to>Rostov</town_to>
-			<time_out>1900-01-01 14:30:00.000</time_out>
-			<time_in>1900-01-01 14:50:00.000</time_in>
+			<code>13</code>
+			<model>1232</model>
+			<speed>1</speed>
+			<ram>1</ram>
+			<hd>1</hd>
+			<cd>12x</cd>
+			<price></price>
 		</row>
 		<row>
-			<trip_no>8901</trip_no>
-			<id_comp>6</id_comp>
-			<plane>TU-154</plane>
-			<town_from>Moscow</town_from>
-			<town_to>St-Petersburg</town_to>
-			<time_out>1900-01-01 16:30:00.000</time_out>
-			<time_in>1900-01-01 16:31:00.000</time_in>
-		</row>
-	</trip>
-	<pass_in_trip>
-		<row>
-			<trip_no>8900</trip_no>
-			<date>2003-04-29 00:00:00.000</date>
-			<id_psg>26</id_psg>
-			<place>2a</place>
+			<code>14</code>
+			<model>1233</model>
+			<speed>1</speed>
+			<ram>1</ram>
+			<hd>1</hd>
+			<cd>12x</cd>
+			<price></price>
 		</row>
 		<row>
-			<trip_no>8900</trip_no>
-			<date>2003-04-30 00:00:00.000</date>
-			<id_psg>26</id_psg>
-			<place>2a</place>
+			<code>15</code>
+			<model>1232</model>
+			<speed>1</speed>
+			<ram>1</ram>
+			<hd>1</hd>
+			<cd>12x</cd>
+			<price></price>
 		</row>
 		<row>
-			<trip_no>8900</trip_no>
-			<date>2003-05-01 00:00:00.000</date>
-			<id_psg>26</id_psg>
-			<place>2a</place>
+			<code>16</code>
+			<model>1233</model>
+			<speed>1</speed>
+			<ram>1</ram>
+			<hd>1</hd>
+			<cd>12x</cd>
+			<price></price>
+		</row>
+	</pc>
+	<laptop>
+		<row>
+			<code>7</code>
+			<model>1750</model>
+			<speed>1</speed>
+			<ram>1</ram>
+			<hd>1</hd>
+			<price></price>
+			<screen>1</screen>
 		</row>
 		<row>
-			<trip_no>8901</trip_no>
-			<date>2003-05-01 00:00:00.000</date>
-			<id_psg>28</id_psg>
-			<place>1d</place>
+			<code>8</code>
+			<model>1752</model>
+			<speed>1</speed>
+			<ram>1</ram>
+			<hd>1</hd>
+			<price></price>
+			<screen>1</screen>
 		</row>
 		<row>
-			<trip_no>8901</trip_no>
-			<date>2003-05-02 00:00:00.000</date>
-			<id_psg>28</id_psg>
-			<place>1d</place>
+			<code>9</code>
+			<model>1750</model>
+			<speed>1</speed>
+			<ram>1</ram>
+			<hd>1</hd>
+			<price></price>
+			<screen>1</screen>
 		</row>
 		<row>
-			<trip_no>8901</trip_no>
-			<date>2003-05-03 00:00:00.000</date>
-			<id_psg>28</id_psg>
-			<place>1c</place>
+			<code>10</code>
+			<model>1752</model>
+			<speed>1</speed>
+			<ram>1</ram>
+			<hd>1</hd>
+			<price></price>
+			<screen>1</screen>
 		</row>
-	</pass_in_trip>
-</aero>
+	</laptop>
+	<printer>
+		<row>
+			<code>7</code>
+			<model>1401</model>
+			<color>y</color>
+			<type>Laser</type>
+			<price></price>
+		</row>
+		<row>
+			<code>8</code>
+			<model>1408</model>
+			<color>n</color>
+			<type>Jet</type>
+			<price></price>
+		</row>
+		<row>
+			<code>9</code>
+			<model>1401</model>
+			<color>y</color>
+			<type>Matrix</type>
+			<price></price>
+		</row>
+		<row>
+			<code>10</code>
+			<model>1408</model>
+			<color>n</color>
+			<type>Laser</type>
+			<price></price>
+		</row>
+	</printer>
+</computer>
