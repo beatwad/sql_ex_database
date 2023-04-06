@@ -4,6 +4,14 @@
 			<id_comp>6</id_comp>
 			<name>Ufa lines</name>
 		</row>
+		<row>
+			<id_comp>7</id_comp>
+			<name>St Pt lns</name>
+		</row>
+		<row>
+			<id_comp>8</id_comp>
+			<name>Vld lines</name>
+		</row>
 	</company>
 	<trip>
 		<row>
@@ -23,6 +31,24 @@
 			<town_to>St-Petersburg</town_to>
 			<time_out>1900-01-01 16:30:00.000</time_out>
 			<time_in>1900-01-01 16:31:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8902</trip_no>
+			<id_comp>7</id_comp>
+			<plane>TU-134</plane>
+			<town_from>Moscow</town_from>
+			<town_to>Rostov</town_to>
+			<time_out>1900-01-01 18:30:00.000</time_out>
+			<time_in>1900-01-01 22:30:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8903</trip_no>
+			<id_comp>8</id_comp>
+			<plane>AN-24</plane>
+			<town_from>Ufa</town_from>
+			<town_to>Minsk</town_to>
+			<time_out>1900-01-01 00:01:00.000</time_out>
+			<time_in>1900-01-01 23:59:00.000</time_in>
 		</row>
 	</trip>
 	<pass_in_trip>
@@ -61,6 +87,18 @@
 			<date>2003-05-03 00:00:00.000</date>
 			<id_psg>28</id_psg>
 			<place>1c</place>
+		</row>
+		<row>
+			<trip_no>8902</trip_no>
+			<date>2003-05-04 00:00:00.000</date>
+			<id_psg>28</id_psg>
+			<place>3d</place>
+		</row>
+		<row>
+			<trip_no>8903</trip_no>
+			<date>2003-05-04 00:00:00.000</date>
+			<id_psg>27</id_psg>
+			<place>2a</place>
 		</row>
 	</pass_in_trip>
 </aero>

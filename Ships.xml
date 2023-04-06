@@ -1,0 +1,77 @@
+<ships>
+	<classes>
+		<row>
+			<class>Ural</class>
+			<type>bc</type>
+			<country>Russia</country>
+			<numguns></numguns>
+			<bore></bore>
+			<displacement></displacement>
+		</row>
+		<row>
+			<class>Moscow</class>
+			<type>bb</type>
+			<country>Russia</country>
+			<numguns></numguns>
+			<bore></bore>
+			<displacement></displacement>
+		</row>
+		<row>
+			<class>St Petersburg</class>
+			<type>bc</type>
+			<country>Russia</country>
+			<numguns></numguns>
+			<bore></bore>
+			<displacement></displacement>
+		</row>
+	</classes>
+	<battles>
+		<row>
+			<name>Baltika</name>
+			<date>1800-01-01 00:00:00</date>
+		</row>
+		<row>
+			<name>Black Sea</name>
+			<date>2220-01-01 00:00:00</date>
+		</row>
+	</battles>
+	<ships>
+		<row>
+			<name>Ural</name>
+			<class>Moscow</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>Moscow</name>
+			<class>Moscow</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>St Petersburg</name>
+			<class>Moscow</class>
+			<launched></launched>
+		</row>
+	</ships>
+	<outcomes>
+		<row>
+			<ship>Rostov</ship>
+			<battle>Baltika</battle>
+			<result>ok</result>
+		</row>
+		<row>
+			<ship>Ural</ship>
+			<battle>Black Sea</battle>
+			<result>ok</result>
+		</row>
+		<row>
+			<ship>Moscow</ship>
+			<battle>Black Sea</battle>
+			<result>sunk</result>
+		</row>
+		<row>
+			<ship>St Petersburg</ship>
+			<battle>Black Sea</battle>
+			<result>damaged</result>
+		</row>
+	</outcomes>
+</ships>
