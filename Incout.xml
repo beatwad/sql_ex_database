@@ -1,0 +1,120 @@
+<incout>
+	<income>
+		<row>
+			<code>14</code>
+			<point>9</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<inc>1</inc>
+		</row>
+		<row>
+			<code>15</code>
+			<point>1</point>
+			<date>2001-09-19 00:00:00.000</date>
+			<inc>1</inc>
+		</row>
+	</income>
+	<outcome>
+		<row>
+			<code>19</code>
+			<point>1</point>
+			<date>2001-09-15 00:00:00.000</date>
+			<out>10000</out>
+		</row>
+		<row>
+			<code>20</code>
+			<point>2</point>
+			<date>2001-09-15 00:00:00.000</date>
+			<out>10000</out>
+		</row>
+		<row>
+			<code>21</code>
+			<point>3</point>
+			<date>2001-09-15 00:00:00.000</date>
+			<out>10000</out>
+		</row>
+		<row>
+			<code>22</code>
+			<point>1</point>
+			<date>2001-09-15 00:00:00.000</date>
+			<out>1000</out>
+		</row>
+		<row>
+			<code>23</code>
+			<point>1</point>
+			<date>2001-09-16 00:00:00.000</date>
+			<out>655</out>
+		</row>
+		<row>
+			<code>24</code>
+			<point>2</point>
+			<date>2001-09-16 00:00:00.000</date>
+			<out>345</out>
+		</row>
+		<row>
+			<code>25</code>
+			<point>1</point>
+			<date>2001-09-17 00:00:00.000</date>
+			<out>1000</out>
+		</row>
+		<row>
+			<code>26</code>
+			<point>2</point>
+			<date>2001-09-17 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>27</code>
+			<point>3</point>
+			<date>2001-09-17 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>28</code>
+			<point>1</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>29</code>
+			<point>2</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>30</code>
+			<point>3</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>31</code>
+			<point>4</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>32</code>
+			<point>5</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>33</code>
+			<point>6</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>34</code>
+			<point>7</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<out>1</out>
+		</row>
+		<row>
+			<code>35</code>
+			<point>8</point>
+			<date>2001-09-18 00:00:00.000</date>
+			<out>1</out>
+		</row>
+	</outcome>
+</incout>
