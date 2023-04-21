@@ -12,6 +12,10 @@
 			<id_comp>8</id_comp>
 			<name>British_AW</name>
 		</row>
+		<row>
+			<id_comp>9</id_comp>
+			<name>AM_Air</name>
+		</row>
 	</company>
 	<trip>
 		<row>
@@ -95,6 +99,123 @@
 			<time_out>1900-01-01 01:00:00.000</time_out>
 			<time_in>1900-01-01 17:00:00.000</time_in>
 		</row>
+		<row>
+			<trip_no>8909</trip_no>
+			<id_comp>6</id_comp>
+			<plane>TU-154</plane>
+			<town_from>Ufa</town_from>
+			<town_to>Novosibirsk</town_to>
+			<time_out>1900-01-01 01:00:00.000</time_out>
+			<time_in>1900-01-01 10:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8910</trip_no>
+			<id_comp>6</id_comp>
+			<plane>TU-154</plane>
+			<town_from>Novosibirsk</town_from>
+			<town_to>Ufa</town_to>
+			<time_out>1900-01-01 11:00:00.000</time_out>
+			<time_in>1900-01-01 21:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8911</trip_no>
+			<id_comp>7</id_comp>
+			<plane>TU-154</plane>
+			<town_from>Novgorod</town_from>
+			<town_to>Kaliningrad</town_to>
+			<time_out>1900-01-01 11:00:00.000</time_out>
+			<time_in>1900-01-01 21:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8912</trip_no>
+			<id_comp>8</id_comp>
+			<plane>Airbus</plane>
+			<town_from>Dublin</town_from>
+			<town_to>Oslo</town_to>
+			<time_out>1900-01-01 8:00:00.000</time_out>
+			<time_in>1900-01-01 10:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8913</trip_no>
+			<id_comp>8</id_comp>
+			<plane>Boeing</plane>
+			<town_from>Oslo</town_from>
+			<town_to>Dublin</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 14:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8914</trip_no>
+			<id_comp>9</id_comp>
+			<plane>Boeing</plane>
+			<town_from>Washington</town_from>
+			<town_to>New-York</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 14:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8915</trip_no>
+			<id_comp>9</id_comp>
+			<plane>Boeing</plane>
+			<town_from>New-York</town_from>
+			<town_to>Washington</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 14:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8916</trip_no>
+			<id_comp>9</id_comp>
+			<plane>Boeing</plane>
+			<town_from>New Orlean</town_from>
+			<town_to>New Orlean</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 14:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8917</trip_no>
+			<id_comp>9</id_comp>
+			<plane>Boeing</plane>
+			<town_from>New Orlean</town_from>
+			<town_to>New Orlean</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 14:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8918</trip_no>
+			<id_comp>9</id_comp>
+			<plane>Boeing</plane>
+			<town_from>Washington</town_from>
+			<town_to>Washington</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 14:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8919</trip_no>
+			<id_comp>9</id_comp>
+			<plane>Boeing</plane>
+			<town_from>New-York</town_from>
+			<town_to>New-York</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 13:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8920</trip_no>
+			<id_comp>9</id_comp>
+			<plane>Boeing</plane>
+			<town_from>Missouri</town_from>
+			<town_to>Clievlend</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 13:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8921</trip_no>
+			<id_comp>9</id_comp>
+			<plane>Boeing</plane>
+			<town_from>Seattle</town_from>
+			<town_to>Missouri</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 13:00:00.000</time_in>
+		</row>
 	</trip>
 	<pass_in_trip>
 		<row>
@@ -147,7 +268,7 @@
 		</row>
 		<row>
 			<trip_no>8904</trip_no>
-			<date>2003-05-04 00:00:00.000</date>
+			<date>2003-05-15 00:00:00.000</date>
 			<id_psg>27</id_psg>
 			<place>1c</place>
 		</row>
@@ -191,6 +312,96 @@
 			<trip_no>8905</trip_no>
 			<date>2003-05-07 00:00:00.000</date>
 			<id_psg>20</id_psg>
+			<place>1c</place>
+		</row>
+		<row>
+			<trip_no>8909</trip_no>
+			<date>2003-05-08 00:00:00.000</date>
+			<id_psg>20</id_psg>
+			<place>2a</place>
+		</row>
+		<row>
+			<trip_no>8910</trip_no>
+			<date>2003-05-08 00:00:00.000</date>
+			<id_psg>21</id_psg>
+			<place>1b</place>
+		</row>
+		<row>
+			<trip_no>8911</trip_no>
+			<date>2003-05-08 00:00:00.000</date>
+			<id_psg>29</id_psg>
+			<place>1a</place>
+		</row>
+		<row>
+			<trip_no>8912</trip_no>
+			<date>2003-05-08 00:00:00.000</date>
+			<id_psg>28</id_psg>
+			<place>3c</place>
+		</row>
+		<row>
+			<trip_no>8913</trip_no>
+			<date>2003-05-09 00:00:00.000</date>
+			<id_psg>27</id_psg>
+			<place>2b</place>
+		</row>
+		<row>
+			<trip_no>8914</trip_no>
+			<date>2003-05-10 00:00:00.000</date>
+			<id_psg>28</id_psg>
+			<place>3a</place>
+		</row>
+		<row>
+			<trip_no>8915</trip_no>
+			<date>2003-06-10 00:00:00.000</date>
+			<id_psg>28</id_psg>
+			<place>3b</place>
+		</row>
+		<row>
+			<trip_no>8914</trip_no>
+			<date>2003-07-10 00:00:00.000</date>
+			<id_psg>29</id_psg>
+			<place>3a</place>
+		</row>
+		<row>
+			<trip_no>8915</trip_no>
+			<date>2003-08-10 00:00:00.000</date>
+			<id_psg>29</id_psg>
+			<place>3b</place>
+		</row>
+		<row>
+			<trip_no>8916</trip_no>
+			<date>2003-08-10 00:00:00.000</date>
+			<id_psg>29</id_psg>
+			<place>2c</place>
+		</row>
+		<row>
+			<trip_no>8917</trip_no>
+			<date>2003-08-10 00:00:00.000</date>
+			<id_psg>30</id_psg>
+			<place>2b</place>
+		</row>
+		<row>
+			<trip_no>8918</trip_no>
+			<date>2003-08-10 00:00:00.000</date>
+			<id_psg>31</id_psg>
+			<place>2b</place>
+		</row>
+		<row>
+			<trip_no>8919</trip_no>
+			<date>2003-08-10 00:00:00.000</date>
+			<id_psg>31</id_psg>
+			<place>1a</place>
+		</row>
+		<row>
+			<trip_no>8920</trip_no>
+			<date>2003-08-10 00:00:00.000</date>
+			<id_psg>28</id_psg>
+			<place>1b</place>
+		</row>
+		<row>
+			<trip_no>8921</trip_no>
+			<date>2003-08-11 00:00:00.000</date>
+			<id_psg>30</id_psg>
 			<place>1c</place>
 		</row>
 	</pass_in_trip>
