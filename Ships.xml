@@ -24,6 +24,14 @@
 			<bore></bore>
 			<displacement></displacement>
 		</row>
+		<row>
+			<class>Oslo</class>
+			<type>bb</type>
+			<country>Sweden</country>
+			<numguns></numguns>
+			<bore></bore>
+			<displacement></displacement>
+		</row>
 	</classes>
 	<battles>
 		<row>
@@ -51,6 +59,56 @@
 			<class>Moscow</class>
 			<launched></launched>
 		</row>
+		<row>
+			<name>Mask</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>Smak</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>War awr</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>rwa</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>war</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>Mkas</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name> mksa</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>mksa</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>war rwa raw</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
+		<row>
+			<name>awwa</name>
+			<class>Oslo</class>
+			<launched></launched>
+		</row>
 	</ships>
 	<outcomes>
 		<row>
@@ -72,6 +130,11 @@
 			<ship>St Petersburg</ship>
 			<battle>Black Sea</battle>
 			<result>damaged</result>
+		</row>
+		<row>
+			<ship>waaw</ship>
+			<battle>Black Sea</battle>
+			<result>ok</result>
 		</row>
 	</outcomes>
 </ships>
