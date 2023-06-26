@@ -16,6 +16,22 @@
 			<id_comp>9</id_comp>
 			<name>AM_Air</name>
 		</row>
+		<row>
+			<id_comp>10</id_comp>
+			<name>SKA</name>
+		</row>
+		<row>
+			<id_comp>11</id_comp>
+			<name>AR</name>
+		</row>
+		<row>
+			<id_comp>12</id_comp>
+			<name>RA</name>
+		</row>
+		<row>
+			<id_comp>13</id_comp>
+			<name>RR</name>
+		</row>
 	</company>
 	<trip>
 		<row>
@@ -216,6 +232,51 @@
 			<time_out>1900-01-01 12:00:00.000</time_out>
 			<time_in>1900-01-01 13:00:00.000</time_in>
 		</row>
+		<row>
+			<trip_no>8922</trip_no>
+			<id_comp>10</id_comp>
+			<plane>SU-57</plane>
+			<town_from>Moscow</town_from>
+			<town_to>Kaliningrad</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 13:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8923</trip_no>
+			<id_comp>10</id_comp>
+			<plane>KA-52</plane>
+			<town_from>Moscow</town_from>
+			<town_to>Kaliningrad</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 13:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8924</trip_no>
+			<id_comp>11</id_comp>
+			<plane>KA-52</plane>
+			<town_from>Moscow</town_from>
+			<town_to>Kaliningrad</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 13:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8925</trip_no>
+			<id_comp>12</id_comp>
+			<plane>SU-57</plane>
+			<town_from>Moscow</town_from>
+			<town_to>Kaliningrad</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 13:00:00.000</time_in>
+		</row>
+		<row>
+			<trip_no>8926</trip_no>
+			<id_comp>13</id_comp>
+			<plane>KA-52</plane>
+			<town_from>Moscow</town_from>
+			<town_to>Kaliningrad</town_to>
+			<time_out>1900-01-01 12:00:00.000</time_out>
+			<time_in>1900-01-01 13:00:00.000</time_in>
+		</row>
 	</trip>
 	<pass_in_trip>
 		<row>
@@ -403,6 +464,24 @@
 			<date>2003-08-11 00:00:00.000</date>
 			<id_psg>30</id_psg>
 			<place>1c</place>
+		</row>
+		<row>
+			<trip_no>8922</trip_no>
+			<date>2003-09-11 00:00:00.000</date>
+			<id_psg>30</id_psg>
+			<place>2a</place>
+		</row>
+		<row>
+			<trip_no>8923</trip_no>
+			<date>2003-09-11 00:00:00.000</date>
+			<id_psg>22</id_psg>
+			<place>1b</place>
+		</row>
+		<row>
+			<trip_no>8924</trip_no>
+			<date>2003-10-11 00:00:00.000</date>
+			<id_psg>21</id_psg>
+			<place>1a</place>
 		</row>
 	</pass_in_trip>
 </aero>
