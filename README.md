@@ -6,4 +6,4 @@ Consists of 5 databases
 - painting
 - ships
 
-All databases are in XML format because sql-ex.ru site accepts database schemes in that formats.
+All databases are in XML format because sql-ex.ru site accepts database schemes in that format only.
