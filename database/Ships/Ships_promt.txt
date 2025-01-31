@@ -1,0 +1,59 @@
+The database of naval ships that took part in World War II is under consideration. The database consists of the following relations:
+Classes(class, type, country, numGuns, bore, displacement)
+Ships(name, class, launched)
+Battles(name, date)
+Outcomes(ship, battle, result)
+Ships in classes all have the same general design. 
+A class is normally assigned either the name of the first ship built according to the corresponding design, or a name that is different from any ship name 
+in the database. The ship whose name is assigned to a class is called a lead ship.
+The Classes relation includes the name of the class, type (can be either bb for a battle ship, or bc for a battle cruiser), 
+country the ship was built in, the number of main guns, gun caliber (bore diameter in inches), and displacement (weight in tons). 
+The Ships relation holds information about the ship name, the name of its corresponding class, and the year the ship was launched. 
+The Battles relation contains names and dates of battles the ships participated in, and the Outcomes relation - the battle result for a given ship 
+(may be sunk, damaged, or OK, the last value meaning the ship survived the battle unharmed).
+It should be noted that:
+- the Outcomes relation may contain ships not present in the Ships relation; 
+- a ship sunk can’t participate in later battles;
+- for historical reasons, lead ships are referred to as head ships in many exercises;
+- a ship found in the Outcomes table but not in the Ships table is still considered in the database. This is true even if it is sunk;
+- in this database Sunday is the first day of week.
+
+DBML scheme of the database:
+```
+Table Classes {
+  class        varchar(50) [primary key]
+  type         varchar(2)
+  country      varchar(20)
+  numGuns      tinyint
+  bore         real
+  displacement int
+}
+
+Table Ships {
+  name       varchar(50) [primary key]
+  class      varchar(50)
+  launched   smallint
+
+  Ref: class > Classes.class
+}
+
+Table Battles {
+  name  varchar(20) [primary key]
+  date  datetime
+}
+
+Table Outcomes {
+  ship   varchar(50)
+  battle varchar(20)
+  result varchar(10)
+
+  Ref: ship > Ships.name
+  Ref: battle > Battles.name
+
+  indexes {
+    (ship, battle) [primary key]
+  }
+}
+```
+
+SQL Server is Microsoft SQL Server 2019

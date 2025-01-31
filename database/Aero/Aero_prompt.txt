@@ -11,8 +11,11 @@ It should be noted that:
 - departure and arrival times are specified with one minute precision;
 - there can be several passengers bearing the same first name and surname (for example, Bruce Willis);
 - the seat (place) designation consists of a number followed by a letter; the number stands for the row, while the letter (a – d) defines the seat position in the grid (from left to right, in alphabetical order);
-- connections and constraints are shown in the DBML schema below.
+- connections and constraints are shown in the DBML scheme below.
+- in this database Sunday is the first day of week.
 
+DBML scheme of the database:
+```
 Table Trip {
   trip_no     int       [primary key]
   ID_comp     int       [not null, ref: > Company.ID_comp]
@@ -43,3 +46,6 @@ Table Pass_in_trip {
     (trip_no, date, ID_psg) [primary key]
   }
 }
+```
+
+SQL Server is Microsoft SQL Server 2019

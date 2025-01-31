@@ -3,11 +3,11 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 class_types = ['bb', 'bc']
-countries = ['USA', 'DEN', 'JAP', 'UK', 'IT', 'RUS', 'AU', 'BR']
+countries = ['USA',] #, 'DEN', 'JAP', 'UK', 'IT', 'RUS', 'AU', 'BR']
 num_classes = 5
-num_battles = 5
-max_num_ships_in_class = 5
-max_num_ships_in_battle = 10
+num_battles = 50
+max_num_ships_in_class = 10
+max_num_ships_in_battle = 3
 
 # Генерация случайных данных для Classes
 def generate_classes():
@@ -18,7 +18,7 @@ def generate_classes():
             'class': country + ' ' + str(i),
             'type': random.choice(class_types),
             'country': country,
-            'numGuns': str(random.randint(4, 12)),
+            'numguns': str(random.randint(4, 12)),
             'bore': str(random.randint(10, 18)),
             'displacement': str(random.randint(20000, 50000))
         }
@@ -41,9 +41,9 @@ def generate_ships(classes):
 # Генерация случайных данных для Battles
 def generate_battles(num_battles):
     battles = []
-    start_date = datetime(1939, 9, 1)
+    start_date = datetime(1900, 9, 1)
     for i in range(1, num_battles+1):
-        date = start_date + timedelta(days=random.randint(0, 365*6))  # между 1939 и 1945
+        date = start_date + timedelta(days=random.randint(0, 365))  # между 1939 и 1945
         battle = {
             'name': f"Battle_{i}",
             'date': date.strftime('%Y-%m-%d')
@@ -53,12 +53,13 @@ def generate_battles(num_battles):
     return battles
 
 # Генерация случайных данных для Outcomes
-def generate_outcomes(ships, battles):
+def generate_outcomes(ships, classes, battles):
     outcomes = []
     ships_tmp = ships.copy()
+    classes_tmp = classes.copy()
     result_types = ['OK', 'damaged', 'sunk']
     for battle in battles:
-        num_ships_in_battle = random.randint(1, max_num_ships_in_battle)
+        num_ships_in_battle = random.randint(1, max_num_ships_in_battle // 2)
         participating_ships = random.sample(ships_tmp, min(len(ships_tmp), num_ships_in_battle))
         for ship in participating_ships:
             outcome = {
@@ -68,6 +69,16 @@ def generate_outcomes(ships, battles):
             }
             if outcome['result'] == 'sunk':
                 ships_tmp.remove(ship)
+            outcomes.append(outcome)
+        participating_flagman_ships = random.sample(classes_tmp, min(len(classes_tmp), num_ships_in_battle))
+        for ship in participating_flagman_ships:
+            outcome = {
+                'ship': ship['class'],
+                'battle': battle['name'],
+                'result': random.choice(result_types)
+            }
+            if outcome['result'] == 'sunk':
+                classes_tmp.remove(ship)
             outcomes.append(outcome)
     return outcomes
 
@@ -111,9 +122,9 @@ def data_to_xml(classes, ships, battles, outcomes):
 
 # Генерация данных
 classes = generate_classes()
-ships = generate_ships(classes)
 battles = generate_battles(num_battles)
-outcomes = generate_outcomes(ships, battles)
+ships = generate_ships(classes)
+outcomes = generate_outcomes(ships, classes, battles)
 
 # Конвертация данных в XML и запись в файл
 tree = data_to_xml(classes, ships, battles, outcomes)
