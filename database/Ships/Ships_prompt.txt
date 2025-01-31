@@ -16,7 +16,8 @@ It should be noted that:
 - a ship sunk can’t participate in later battles;
 - for historical reasons, lead ships are referred to as head ships in many exercises;
 - a ship found in the Outcomes table but not in the Ships table is still considered in the database. This is true even if it is sunk;
-- in this database Sunday is the first day of week.
+- in this database Sunday is the first day of week;
+- server is Microsoft SQL Server 2019.
 
 DBML scheme of the database:
 ```
@@ -55,5 +56,3 @@ Table Outcomes {
   }
 }
 ```
-
-SQL Server is Microsoft SQL Server 2019

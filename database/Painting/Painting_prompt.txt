@@ -11,8 +11,8 @@ It should be noted that
 - B_VOL must be greater than 0 and less or equal to 255;
 - the paint quantity of a single color applied to one square can’t exceed 255, and there can’t be a less than zero amount of paint in a spray can;
 - the time of the painting event (B_DATETIME) is specified with one second precision, i.e. it does not contain milliseconds;
-- for historical reasons, the spray cans are referred to as “balloons” by many of the exercises, and the utV table contains spray can names (V_NAME column) such as “Balloon # 01”, etc.
-- server is Microsoft SQL Server
+- for historical reasons, the spray cans are referred to as “balloons” by many of the exercises, and the utV table contains spray can names (V_NAME column) such as “Balloon # 01”, etc;
+- server is Microsoft SQL Server 2019.
 
 DBML scheme of the database:
 
