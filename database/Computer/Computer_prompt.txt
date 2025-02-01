@@ -27,7 +27,7 @@ Table pc {
     ram smallint
     hd real
     cd varchar(10)
-    price money
+    price money [note: "Nullable"]
     
     Ref: model > product.model
 }
@@ -38,7 +38,7 @@ Table laptop {
     speed smallint
     ram smallint
     hd real
-    price money
+    price money [note: "Nullable"]
     screen tinyint
     
     Ref: model > product.model
@@ -49,7 +49,7 @@ Table printer {
     model varchar(50)
     color char(1)
     type varchar(10)
-    price money
+    price money [note: "Nullable"]
     
     Ref: model > product.model
 }

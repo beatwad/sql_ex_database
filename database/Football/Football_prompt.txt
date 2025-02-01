@@ -1,0 +1,49 @@
+National Football Championship. Information on a single season of one team. Each game lasts exactly 90 minutes.
+Tables
+Players: Players (player_id, first_name, last_name, nickname, citizenship, dob, role)
+player_id - uniform number, nickname - name on the uniform, citizenship (NULL for native players), dob - date of birth, role - position;
+Games: Games(game_id, team, city, goals, game_date, own)
+game_id - matchday number, team - opposing team, city - city where the match took place (NULL if it was a home game), 
+goals - goals scored by the opponent, including own goals shot by own players (NULL if not scored), 
+game_date - match date/time, own - own goals by opposing team (null if there were none);
+Participation in games: 
+Lineups (start, game_id, player_id, time_in, goals, cards)
+start - 'B' - the player was in the starting lineup, 
+'S' - he started the match on the bench; time_in - playing time in minutes (NULL if the player did not enter the game); 
+goals - the number of goals the player scored in the match (NULL if he didn't score any goals); 
+cards – penalty cards: 'Y' (yellow), 'Y2' (two yellow cards), 'R' (direct red), 'YR' (yellow+direct red), NULL (no cards shown).
+Server is Microsoft SQL Server 2019.
+
+DBML scheme of the database:
+```
+Table Games {
+    game_id   int       [primary key]
+    team      varchar(30)
+    city      varchar(30)
+    goals     tinyint
+    game_date datetime
+    own       tinyint
+}
+
+Table Players {
+    player_id   int       [primary key]
+    first_name  varchar(50)
+    last_name   varchar(50)
+    nickname    varchar(50)  [note: "Nullable"]
+    citizenship varchar(50)
+    dob         date
+    role        varchar(20)
+}
+
+Table Lineups {
+    start     char(1)
+    game_id   int
+    player_id int
+    time_in   tinyint
+    goals     tinyint   [note: "Nullable"]
+    cards     char(2)   [note: "Nullable"]
+    
+    Ref: game_id > Games.game_id
+    Ref: player_id > Players.player_id
+}
+```

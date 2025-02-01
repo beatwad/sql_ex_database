@@ -25,15 +25,15 @@ Table Classes {
   class        varchar(50) [primary key]
   type         varchar(2)
   country      varchar(20)
-  numGuns      tinyint
-  bore         real
-  displacement int
+  numguns      tinyint [note: "Nullable"]
+  bore         real [note: "Nullable"]
+  displacement int [note: "Nullable"]
 }
 
 Table Ships {
   name       varchar(50) [primary key]
   class      varchar(50)
-  launched   smallint
+  launched   smallint [note: "Nullable"]
 
   Ref: class > Classes.class
 }
