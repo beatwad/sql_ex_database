@@ -40,4 +40,3 @@ Table utV {
   V_NAME varchar(35)
   V_COLOR char(1)
 }
-
